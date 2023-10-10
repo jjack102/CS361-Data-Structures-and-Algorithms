@@ -1,0 +1,5 @@
+1..3
+ok 1 - testDeptAddFacultyBeginning
+ok 2 - testDeptAddFacultyEnd
+ok 3 - testDeptAddFacultyMixed
+# UnitTest: passed 3 out of 3 tests, for a success rate of 100.0%

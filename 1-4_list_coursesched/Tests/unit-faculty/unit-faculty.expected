@@ -1,0 +1,10 @@
+1..8
+ok 1 - testFacAddBeginning
+ok 2 - testFacAddEnd
+ok 3 - testFacAddMixed
+ok 4 - testFacAssign
+ok 5 - testFacConstructor
+ok 6 - testFacCopy
+ok 7 - testFacDefaultConstructor
+ok 8 - testFacSetName
+# UnitTest: passed 8 out of 8 tests, for a success rate of 100.0%
