@@ -1,0 +1,12 @@
+testExtraction.o: testExtraction.cpp extraction.h node.h parser.h \
+ unittest.h
+xmlextract.o: xmlextract.cpp node.h parser.h extraction.h
+testParseState.o: testParseState.cpp parseState.h node.h FlexLexer.h \
+ scanner.h unittest.h
+parseState.o: parseState.cpp parseState.h node.h
+unittest.o: unittest.cpp unittest.h
+lex.yy.o: lex.yy.cpp scanner.h
+testParser.o: testParser.cpp parser.h node.h unittest.h
+node.o: node.cpp node.h
+extraction.o: extraction.cpp extraction.h node.h
+parser.o: parser.cpp parser.h node.h parseState.h FlexLexer.h scanner.h

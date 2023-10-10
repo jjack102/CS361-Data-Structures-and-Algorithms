@@ -1,0 +1,16 @@
+cat > t1.dat <<EOF
+<html>
+  <head>
+	<title>Greetings</title>
+  </head>
+  <body>
+	<p>
+	  Hello
+	</p>
+	<p>
+	  world!
+	</p>
+  </body>
+</html>
+EOF
+./xmlextract t1.dat /html/body/p[2]

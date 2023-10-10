@@ -1,0 +1,12 @@
+test:
+  launch: ./xmlextract
+  timelimit: 10
+build:
+  command: make
+  weight: 2
+  studentFiles:
+    include: ["extraction.cpp"]
+  instructorFiles:
+    exclude: ["extraction.cpp"]
+dueDate: 03/18/2023
+latePenalties: [10, 20, 100]

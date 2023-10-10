@@ -1,0 +1,157 @@
+cat > t1.dat <<EOF
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE rdf:RDF [
+  <!ENTITY pg  "Project Gutenberg">
+  <!ENTITY lic "http://www.gutenberg.org/license">
+  <!ENTITY f   "http://www.gutenberg.org/">
+]>
+
+<!-- 
+
+The Project Gutenberg Catalog in RDF/XML Format
+
+  Copyright (C) 2004-present by 
+
+  Project Gutenberg Literary Archive Foundation
+  4557 Melan Drive S.
+  Fairbanks AK 99712
+  U.S.A.
+
+
+LICENSE TERMS
+
+
+This file ("work") is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License (GPL)
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This work is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+Please become familiar with the GNU GPL before using this file.
+
+You can get a full copy of the GNU General Public License online at:
+
+  http://www.gnu.org/licenses/gpl.html
+
+The GNU General Public License is explained in human language at:
+
+  http://creativecommons.org/licenses/GPL/2.0/
+
+If you are uncertain about the terms of the license or whether your
+intended use is legitimate, please email gbnewby@pglaf.org for
+clarification.
+
+Thank you for your interest in Project Gutenberg.  For more
+information about Project Gutenberg and its goals, visit
+the Official Project Gutenberg Web site at 
+
+  http://www.gutenberg.org
+
+-->
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+         xmlns:cc="http://web.resource.org/cc/"
+         xmlns:pgterms="http://www.gutenberg.org/rdfterms/"
+         xml:base="http://www.gutenberg.org/feeds/catalog.rdf">
+
+<cc:Work rdf:about="">
+   <cc:license  rdf:resource="http://creativecommons.org/licenses/GPL/2.0/" />
+</cc:Work>
+
+<cc:License rdf:about="http://creativecommons.org/licenses/GPL/2.0/">
+   <cc:permits  rdf:resource="http://web.resource.org/cc/Reproduction" />
+   <cc:permits  rdf:resource="http://web.resource.org/cc/Distribution" />
+   <cc:requires rdf:resource="http://web.resource.org/cc/Notice" />
+   <cc:permits  rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+   <cc:requires rdf:resource="http://web.resource.org/cc/ShareAlike" />
+   <cc:requires rdf:resource="http://web.resource.org/cc/SourceCode" />
+</cc:License>
+
+<rdf:Description rdf:about="">
+  <dc:created><dcterms:W3CDTF><rdf:value>2014-04-15</rdf:value></dcterms:W3CDTF></dc:created>
+</rdf:Description>
+
+
+<pgterms:etext rdf:ID="etext3177">
+  <dc:publisher>&pg;</dc:publisher>
+  <dc:title rdf:parseType="Literal">Roughing It</dc:title>
+  <dc:creator rdf:parseType="Literal">Twain, Mark, 1835-1910</dc:creator>
+  <pgterms:friendlytitle rdf:parseType="Literal">Roughing It by Mark Twain</pgterms:friendlytitle>
+  <dc:language><dcterms:ISO639-2><rdf:value>en</rdf:value></dcterms:ISO639-2></dc:language>
+  <dc:subject>
+    <rdf:Bag>
+      <rdf:li><dcterms:LCSH><rdf:value>Authors, American -- Homes and haunts -- West (U.S.)</rdf:value></dcterms:LCSH></rdf:li>
+      <rdf:li><dcterms:LCSH><rdf:value>Twain, Mark, 1835-1910 -- Travel -- West (U.S.)</rdf:value></dcterms:LCSH></rdf:li>
+      <rdf:li><dcterms:LCSH><rdf:value>West (U.S.) -- Intellectual life -- 19th century</rdf:value></dcterms:LCSH></rdf:li>
+      <rdf:li><dcterms:LCSH><rdf:value>West (U.S.) -- Description and travel</rdf:value></dcterms:LCSH></rdf:li>
+    </rdf:Bag>
+  </dc:subject>
+  <dc:subject>
+    <rdf:Bag>
+      <rdf:li><dcterms:LCC><rdf:value>PS</rdf:value></dcterms:LCC></rdf:li>
+      <rdf:li><dcterms:LCC><rdf:value>E660</rdf:value></dcterms:LCC></rdf:li>
+    </rdf:Bag>
+  </dc:subject>
+  <dc:created><dcterms:W3CDTF><rdf:value>2004-07-03</rdf:value></dcterms:W3CDTF></dc:created>
+  <pgterms:downloads><xsd:nonNegativeInteger><rdf:value>3926</rdf:value></xsd:nonNegativeInteger></pgterms:downloads>
+  <dc:rights rdf:resource="&lic;" />
+</pgterms:etext>
+
+<pgterms:etext rdf:ID="etext6469">
+  <dc:publisher>&pg;</dc:publisher>
+  <dc:title rdf:parseType="Literal">Queen Victoria, her girlhood and womanhood</dc:title>
+  <dc:creator rdf:parseType="Literal">Greenwood, Grace, 1823-1904</dc:creator>
+  <pgterms:friendlytitle rdf:parseType="Literal">Queen Victoria, her girlhood and womanhood</pgterms:friendlytitle>
+  <dc:language><dcterms:ISO639-2><rdf:value>en</rdf:value></dcterms:ISO639-2></dc:language>
+  <dc:subject><dcterms:LCSH><rdf:value>Victoria, Queen of Great Britain, 1819-1901</rdf:value></dcterms:LCSH></dc:subject>
+  <dc:subject><dcterms:LCC><rdf:value>DA</rdf:value></dcterms:LCC></dc:subject>
+  <dc:created><dcterms:W3CDTF><rdf:value>2004-09-01</rdf:value></dcterms:W3CDTF></dc:created>
+  <pgterms:downloads><xsd:nonNegativeInteger><rdf:value>23</rdf:value></xsd:nonNegativeInteger></pgterms:downloads>
+  <dc:rights rdf:resource="&lic;" />
+</pgterms:etext>
+
+<pgterms:etext rdf:ID="etext4245">
+  <dc:publisher>&pg;</dc:publisher>
+  <dc:title rdf:parseType="Literal">A History of the Early Part of the Reign of James the Second</dc:title>
+  <dc:creator rdf:parseType="Literal">Fox, Charles James, 1749-1806</dc:creator>
+  <dc:contributor rdf:parseType="Literal">Morley, Henry, 1822-1894 [Editor]</dc:contributor>
+  <pgterms:friendlytitle rdf:parseType="Literal">A History of the Early Part of the Reign of James </pgterms:friendlytitle>
+  <dc:language><dcterms:ISO639-2><rdf:value>en</rdf:value></dcterms:ISO639-2></dc:language>
+  <dc:subject><dcterms:LCSH><rdf:value>Great Britain -- History -- James II, 1685-1688</rdf:value></dcterms:LCSH></dc:subject>
+  <dc:subject><dcterms:LCC><rdf:value>DA</rdf:value></dcterms:LCC></dc:subject>
+  <dc:created><dcterms:W3CDTF><rdf:value>2003-07-01</rdf:value></dcterms:W3CDTF></dc:created>
+  <pgterms:downloads><xsd:nonNegativeInteger><rdf:value>17</rdf:value></xsd:nonNegativeInteger></pgterms:downloads>
+  <dc:rights rdf:resource="&lic;" />
+</pgterms:etext>
+
+<pgterms:etext rdf:ID="etext23469">
+  <dc:publisher>&pg;</dc:publisher>
+  <dc:title rdf:parseType="Literal">A History of the Four Georges, Volume I</dc:title>
+  <dc:creator rdf:parseType="Literal">McCarthy, Justin, 1830-1912</dc:creator>
+  <pgterms:friendlytitle rdf:parseType="Literal">A History of the Four Georges, Volume I</pgterms:friendlytitle>
+  <dc:language><dcterms:ISO639-2><rdf:value>en</rdf:value></dcterms:ISO639-2></dc:language>
+  <dc:subject>
+    <rdf:Bag>
+      <rdf:li><dcterms:LCSH><rdf:value>Great Britain -- Politics and government -- 1714-1837</rdf:value></dcterms:LCSH></rdf:li>
+      <rdf:li><dcterms:LCSH><rdf:value>Great Britain -- History -- 1714-1837</rdf:value></dcterms:LCSH></rdf:li>
+    </rdf:Bag>
+  </dc:subject>
+  <dc:subject><dcterms:LCC><rdf:value>DA</rdf:value></dcterms:LCC></dc:subject>
+  <dc:created><dcterms:W3CDTF><rdf:value>2007-11-13</rdf:value></dcterms:W3CDTF></dc:created>
+  <pgterms:downloads><xsd:nonNegativeInteger><rdf:value>3</rdf:value></xsd:nonNegativeInteger></pgterms:downloads>
+  <dc:rights rdf:resource="&lic;" />
+</pgterms:etext>
+
+</rdf:RDF>
+EOF
+./xmlextract t1.dat /rdf:RDF/pgterms:etext[0]/dc:creator
