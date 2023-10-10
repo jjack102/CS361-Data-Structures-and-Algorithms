@@ -1,0 +1,12 @@
+department.o: department.cpp department.h faculty.h section.h
+testSection.o: testSection.cpp unittest.h section.h
+unittest.o: unittest.cpp unittest.h
+faculty2.o: faculty2.cpp faculty.h section.h
+printSchedule.o: printSchedule.cpp department.h faculty.h section.h csv.h
+testFaculty.o: testFaculty.cpp unittest.h faculty.h section.h
+testDepartment.o: testDepartment.cpp unittest.h department.h faculty.h \
+ section.h
+faculty.o: faculty.cpp faculty.h section.h
+section.o: section.cpp section.h
+csv.o: csv.cpp csv.h
+testCSV.o: testCSV.cpp unittest.h csv.h
