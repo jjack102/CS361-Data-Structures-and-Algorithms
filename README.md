@@ -10,6 +10,6 @@ Assignments
 <br />1-6 - Implementing Recursion and Stacks
 <br />2-3 - Implementing Trees using Vectors and Recursion
 <br />2-4 - Implementing Maps and Sets
-<br />2-5 - Implementing Hashing - Unordered multimap
+<br />2-5 - Implementing Hashing and Unordered Multimap
 <br />3-1 - Dynamic Programming
 <br />3-3 - Implementing Graphs and Queues
