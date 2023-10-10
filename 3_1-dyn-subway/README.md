@@ -1,3 +1,3 @@
 # 3_1-dyn-subway
-Implementing Hashing - Unordered multimap
-<br /> I worked on CellIndex and CellMap.  The C++ header file defines a CellIndex struct that represents the indices of a cell in a world or grid. It also provides the necessary functions to compute the hash value of a CellIndex object and to compare two CellIndex objects for equality. Additionally, it defines a specialization for std::hash to enable hashing of CellIndex objects. The code for CellMap implements the two functions defined in the cellMap.h header file. These functions are used to record a character's position in a cell map and check if a character can see another character within a specified cell size.
+Dynamic Programming
+<br />I worked on Subway.cpp. The program uses dynamic programming to efficiently calculate the number of trips and keeps track of the number of recursive calls for debugging purposes.
