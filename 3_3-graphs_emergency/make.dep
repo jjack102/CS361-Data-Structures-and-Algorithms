@@ -1,0 +1,4 @@
+unittest.o: unittest.cpp unittest.h
+city.o: city.cpp city.h
+testCity.o: testCity.cpp city.h unittest.h
+dispatcher.o: dispatcher.cpp city.h

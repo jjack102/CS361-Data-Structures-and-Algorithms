@@ -1,0 +1,6 @@
+test:
+  launch: ./dispatcher
+  params: "@T/@t.dat"
+  timelimit: 60
+dueDate: 04/08/2023
+latePenalties: [10, 20, 100]
