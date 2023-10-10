@@ -1,0 +1,13 @@
+test:
+  launch: ./xmlcheck
+  params: "@T/@t.dat"
+  timelimit: 10
+build:
+  command: make
+  weight: 2
+  studentFiles:
+    include: ["balancer.cpp"]
+  instructorFiles:
+    exclude: ["balancer.cpp"]
+dueDate: 02/18/2023
+latePenalties: [10, 20, 100]

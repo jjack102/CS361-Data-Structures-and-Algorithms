@@ -1,0 +1,12 @@
+<html>
+<head>
+   <title>Traditional Greetings</title>
+   <link  rel="stylesheet" type="text/css" href="test.css"/>
+</head>
+<body>
+  <div class="greeting">
+    <b>Hello</b><br/>world!
+  </DIV>
+  <br/>
+</body>
+</html>

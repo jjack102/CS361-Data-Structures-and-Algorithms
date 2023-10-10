@@ -1,0 +1,5 @@
+unittest.o: unittest.cpp unittest.h
+lex.yy.o: lex.yy.cpp FlexLexer.h scanner.h
+xmlcheck.o: xmlcheck.cpp balancer.h FlexLexer.h scanner.h
+balancer.o: balancer.cpp balancer.h
+testBalancer.o: testBalancer.cpp balancer.h unittest.h
