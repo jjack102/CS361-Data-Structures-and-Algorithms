@@ -1,0 +1,9 @@
+make[1]: Entering directory '/home/zeil/courses/cs361/AutoGrading/s23/WorkArea/2.5_hash_mmorpg/grades/stage/gold'
+g++ -g -std=c++17 -MMD -pthread -D_GLIBCXX_DEBUG -Wall -o cellIndex.o -c cellIndex.cpp
+g++ -g -std=c++17 -MMD -pthread -D_GLIBCXX_DEBUG -Wall -o mmorpg.o -c mmorpg.cpp
+g++ -g -std=c++17 -MMD -pthread -D_GLIBCXX_DEBUG -Wall -o character.o -c character.cpp
+g++ -g -std=c++17 -MMD -pthread -D_GLIBCXX_DEBUG -Wall -o cellMap.o -c cellMap.cpp
+g++ -g -std=c++17 -MMD -pthread -D_GLIBCXX_DEBUG -Wall  -o mmorpg cellIndex.o mmorpg.o character.o cellMap.o 
+make[1]: Leaving directory '/home/zeil/courses/cs361/AutoGrading/s23/WorkArea/2.5_hash_mmorpg/grades/stage/gold'
+
+--- std err---

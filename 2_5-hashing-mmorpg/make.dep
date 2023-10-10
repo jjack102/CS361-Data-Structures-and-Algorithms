@@ -1,0 +1,4 @@
+cellIndex.o: cellIndex.cpp cellIndex.h
+mmorpg.o: mmorpg.cpp character.h cellIndex.h cellMap.h
+character.o: character.cpp character.h
+cellMap.o: cellMap.cpp cellMap.h cellIndex.h character.h
