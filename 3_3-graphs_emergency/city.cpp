@@ -60,61 +60,6 @@ bool City::hasPothole(Intersection from, Intersection to) const
   }
 }
 
-/*
-int City::findFastestRoute(Intersection from, Intersection to, unsigned potholeLimit) const
-{
-  
-  unsigned nV = num_vertices(roadMap);
-
-  std::vector<Intersection> cameFrom(nV);
-
-  std::vector<vector<unsigned>> dist;
-  dist.resize(nV, vector<unsigned>(potholeLimit + 1, INT_MAX));
-  dist[from][0] = 0;
-
-  typedef std::pair<unsigned, Intersection> Element;
-  std::priority_queue<Element, std::vector<Element>, std::greater<Element>> pq;
-  pq.push(Element(0, from));
-
-  // Find the shortest path
-  while (!pq.empty())
-  {
-    Element top = pq.top();
-    pq.pop();
-    Intersection v = top.second;
-    if(v == to) break;
-    int d = dist[v][0];  
-    auto outgoing = out_edges(v, roadMap);
-      for (auto e = outgoing.first; e != outgoing.second; ++e) {
-        Intersection w = target(*e, roadMap);
-        unsigned wdist = d + roadMap[*e].time;
-        if (dist[w] > wdist) {
-          dist[w] = wdist;
-          pq.push(Element(wdist, w));
-          cameFrom[w] = v;
-        }
-      }
-    }
-
-  // Extract path
-  int totalTime = 0;
-  Intersection v = to;
-  if (dist[v] != INT_MAX) {
-    while (!(v == from)) {
-      Edge e;
-      bool exists;
-      std::tie(e, exists) = edge(v, cameFrom[v], roadMap);
-      if(exists) {
-        totalTime += roadMap[e].time;
-      }
-      v = cameFrom[v];
-    }
-  }
-
-  return (dist[to] == INT_MAX) ? -1 : totalTime;
-}
-*/
-
 int City::findFastestRoute(Intersection from, Intersection to, unsigned potholeLimit) const
 {
   // Initialize the distance map and the priority queue
