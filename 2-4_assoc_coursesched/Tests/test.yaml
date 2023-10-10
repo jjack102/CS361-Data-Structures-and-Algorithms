@@ -1,0 +1,4 @@
+test:
+  timelimit: 10
+dueDate: 02/04/2023
+latePenalties: [10, 20, 100]

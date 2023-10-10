@@ -1,0 +1,6 @@
+1..4
+ok 1 - testDeptAddFaculty
+ok 2 - testDeptConstructor
+ok 3 - testDeptTeachesBase
+ok 4 - testDeptTeachesUnknown
+# UnitTest: passed 4 out of 4 tests, for a success rate of 100.0%
