@@ -1,3 +1,3 @@
 # cs361-hash-mmorpg
-Implementing Maps and Sets
-<br /> I worked on the Department class. This class allows you to manage faculty members and the courses they teach, using associative containers for efficient storage and retrieval. Faculty names are kept in alphabetical order to facilitate easy access and retrieval. This class can be useful for organizing and querying information about faculty and their courses within a department.
+Implementing Hashing - Unordered multimap
+<br />I worked on CellIndex and CellMap. The C++ header file defines a CellIndex struct that represents the indices of a cell in a world or grid. It also provides the necessary functions to compute the hash value of a CellIndex object and to compare two CellIndex objects for equality. Additionally, it defines a specialization for std::hash to enable hashing of CellIndex objects. The code for CellMap implements the two functions defined in the cellMap.h header file. These functions are used to record a character's position in a cell map and check if a character can see another character within a specified cell size.
